@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - our future</title>
+    <link rel="shortcut icon" href="./res/icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <!--bootstrap link-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!--AOS link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--link css-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="aboutBody">
+    <header>
+      <div class="fixed-top">
+        <nav>
+          <h1><a href="index.html">our future</a></h1>
+          <div class="links">
+            <div class="hide">
+              <a href="tech.html"
+                ><i class="fas fa-laptop-code"></i> technology</a
+              >
+              <a href="auto.html"><i class="fas fa-robot"></i> autonomous</a>
+              <a href="about.html"><i class="fas fa-address-card"></i> about</a>
+              <a href="contact.html"><i class="fas fa-envelope"></i> contact</a>
+            </div>
+          </div>
+          <!--small screen menu-->
+          <div class="navbar">
+            <div class="hamburger-menu">
+              <div class="line line-1"></div>
+              <div class="line line-2"></div>
+              <div class="line line-3"></div>
+            </div>
+            <ul class="nav-list">
+              <li class="nav-items">
+                <a href="index.html" class="nav-links"
+                  ><i class="fas fa-home"></i> Home</a
+                >
+              </li>
+              <li class="nav-items">
+                <a href="tech.html" class="nav-links"
+                  ><i class="fas fa-laptop-code"></i> technology</a
+                >
+              </li>
+              <li class="nav-items">
+                <a href="auto.html" class="nav-links"
+                  ><i class="fas fa-robot"></i> autonomous</a
+                >
+              </li>
+              <li class="nav-items">
+                <a href="about.html" class="nav-links"
+                  ><i class="fas fa-address-card"></i> about</a
+                >
+              </li>
+              <li class="nav-items">
+                <a href="contact.html" class="nav-links"
+                  ><i class="fas fa-envelope"></i> contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="aboutPage">
+      <div class="contentAbout">
+        <div class="leftP">
+          <div data-aos="fade-up">
+            <p>
+              Hello , my name is
+              <span class="NAME">Hamouda Ben Abdennebi</span> , i am a web
+              developpment student at <span class="GMC">GOMYCODE</span> , and
+              welcome to my final project of web level 1.
+            </p>
+          </div>
+        </div>
+        <div class="rightP">
+          <div data-aos="fade-up">
+            <center>
+              <img src="./res/me.jpg" alt="notFound" />
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="contentAboutTwo">
+        <div data-aos="fade-up">
+          <h2>why I created this website</h2>
+          <p>
+            i select this theme <span>" Our future "</span> because I want to
+            send a message, to make you discover the future technology that we
+            see and that will change our way of living , and I hope you like it
+          </p>
+        </div>
+      </div>
+      <div class="contentAboutTr">
+        <div data-aos="fade-up">
+          <h2>here are some projects that I realized with HTML CSS JS</h2>
+        </div>
+        <div data-aos="fade-up">
+          <div class="myProjects">
+            <div data-aos="flip-right">
+              <div class="card">
+                <img src="./res/projects/clock.png" alt="imgNotFound" />
+                <div class="contProject">
+                  <p>CLOCK</p>
+                  <a href="./clock.html" target="_blank">open</a>
+                </div>
+              </div>
+            </div>
+            <div data-aos="flip-left">
+              <div class="card">
+                <img src="./res/projects/dino.png" alt="imgNotFound" />
+                <div class="contProject">
+                  <p>DINO game</p>
+                  <a href="./dino.html" target="_blank">open</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+    <!--AOS link-->
+    <script>
+      AOS.init({
+        duration: 2200,
+      });
+    </script>
+    <!--link bootstrap-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
